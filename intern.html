@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Cholao! | Multimedia Tastiness</title>
+		<meta name="description" content="Diseñador Multimedia from Cali Colombia" />
+		<meta name="keywords" content="design, development, cool, creative, video, animation" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.png">
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+        <link rel="stylesheet" type="text/css" href="css/sweetalert.css" />
+		<script src="js/modernizr.custom.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="js/sweetalert.min.js"></script>
+        <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+		<script src="shof.js?1465920116328"></script>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+
+  <link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Sancreek' rel='stylesheet' type='text/css'>
+
+        <script>
+var canvas, stage, exportRoot;
+function init() {
+	// --- write your JS code here ---
+	
+	canvas = document.getElementById("canvas");
+	exportRoot = new lib.shof();
+
+	stage = new createjs.Stage(canvas);
+	stage.addChild(exportRoot);
+	stage.update();
+
+	createjs.Ticker.setFPS(lib.properties.fps);
+	createjs.Ticker.addEventListener("tick", stage);
+}
+
+</script>
+
+	</head>
+	<body>
+		
+		<div class="container">
+			<div id="bl-main" class="bl-main">
+				<section>
+					<!--<div class="bl-box">
+						<h2 class="bl-icon bl-icon-about">Quien Soy</h2>
+					</div>-->
+                    <div class="bl-box">
+                    	<body onload="init();" style="background-color:#D4D4D4;margin:0px;">
+	<canvas onmouseover="init();" id="canvas" width="300" height="219"></canvas>
+</body>
+
+						<h2 class="">Who am I</h2>
+					</div>
+					<div class="bl-content">
+						<h2>Nice 2 Meet You</h2>
+						<div class="img_perfil">
+							<img src="images/img_perfil.png">
+
+						</div>
+
+						<div class="txt_perfil"><p>!Hello! I'm Mario Fdo. Romero, and I'm from Santiago de Cali (Colombia). My passion is interactive media.<br> I am very attracted to the way you can tell a story or solve a need using different media such as images, illustrations, animations, websites, videos, etc.<br> I am one of the people who see in each problem an opportunity, and who adapts to each project looking for personalized tools and methods for each one, in order to grow more as a professional and as a person.</p></div>
+
+					</div>
+					<span class="bl-icon bl-icon-close"></span>
+				</section>
+				<section id="bl-work-section">
+					<div class="bl-box"><div class="slide__bg slide__bg--1"></div>
+						<h2>What I've Done</h2>
+					</div>
+					<div class="bl-content">
+						<h2>Some of my Work</h2>
+
+					<ul id="timeline">
+							<li><h3>MY TIMELINE</h3></li>
+							<li><h3>2011 - 2013</h3>
+								<p>Web Developer</p>
+								<a href="http://flaminlab.com.co/" target="_blank"><img src="images/flamin.png" /></a></li>
+							<li><h3>2013 - 2015</h3>
+								<p>Design Department</p>
+								<a href="https://www.facebook.com/brandkeyinfo/" target="_blank"><img src="images/brand.png" /></a></li>
+							<li><h3>2016 - 2018</h3>
+								<p>Design Team Leader</p>
+								<a href="https://www.useitweb.com/es/" target="_blank"><img src="images/useit.png" /></a></li>
+						</ul>
+						
+						<ul id="bl-work-items" style="float: left; margin-top: 20px;">
+							<p>These are some projects that I did in companies that I worked in, and some that I have done as a Freelance Designer.</p>
+							<li data-panel="panel-6"><a href="#"><img src="images/12.jpg" /></a></li>
+							<li data-panel="panel-2"><a href="#"><img src="images/2.jpg" /></a></li>
+							<li data-panel="panel-3"><a href="#"><img src="images/3.jpg" /></a></li>
+							<li data-panel="panel-4"><a href="#"><img src="images/4.jpg" /></a></li>
+                         	<li data-panel="panel-5"><a href="#"><img src="images/5.jpg" /></a></li>
+                         	<li data-panel="panel-1"><a href="#"><img src="images/1.jpg" /></a></li>
+                         	<li data-panel="panel-7"><a href="#"><img src="images/7.jpg" /></a></li>
+                         	<li data-panel="panel-8"><a href="#"><img src="images/8.jpg" /></a></li>
+                         	<li data-panel="panel-9"><a href="#"><img src="images/9.jpg" /></a></li>
+                         	<li data-panel="panel-10"><a href="#"><img src="images/10.jpg"/></a></li>
+                         	<li data-panel="panel-11"><a href="#"><img src="images/11.jpg"/></a></li>
+						</ul>
+					</div>
+					<span class="bl-icon bl-icon-close"></span>
+				</section>
+				<section>
+					<div class="bl-box">
+						<h2>What Tools I Use</h2>
+					</div>
+					<div class="bl-content hrr">
+						<h2>Methods and Tools.</h2>
+                        <p>Many of the tools that I use have been necessary to learn for specific projects, thanks to them I have been able to use non-conventional methods, giving identity to each project.</p>
+						<article>
+							<h3>GRAPHIC DESIGN</h3>
+							<p><span class="icono first"><img src="img/illustrator.png"></span> <span class="icono"><img src="img/photoshop.png"></span> <span class="icono"><img src="img/sketch.png"></span>
+</p>
+						</article>
+					  <article>
+							<h3>WEB DEVELOPMENT</h3>
+							<p><span class="icono first"><img src="img/html5.png"></span> <span class="icono"><img src="img/css3.png"></span><span class="icono"><img src="img/sublime.png"></span><span class="icono"><img src="img/wordpress.png"></span><span class="icono"><img src="img/bootstrap.png"></span>
+</p>
+						</article>
+						<article>
+							<h3>2D ANIMATION</h3>
+							<p><span class="icono first"><img src="img/animate.png"></span> <span class="icono"><img src="img/after.png"></span> 
+</p>
+						</article>
+						<article>
+							<h3>VIDEO EDITING AND POSTPRODUCTION</h3>
+							<p><span class="icono first"><img src="img/premiere.png"></span> <span class="icono"><img src="img/after.png"></span>
+</p>
+						</article>
+					</div>
+					<span class="bl-icon bl-icon-close"></span>
+				</section>
+				<section>
+					<div class="bl-box">
+						<h2>Contact Me</h2>
+					</div>
+					<div class="bl-content">
+						<h2>¡Lets get in touch!</h2>
+						<p>If I have called your attention, and you would like some tastiness in your project, send me a message and I'll get back shortly. Feel free to get to follow me on my social networks, you may get a few laughs. I like to make stuff too! :)</p>
+                        <div class="contacto">
+
+			<div class="wrapper">
+				<form  name="contactform" method="post" action="" class="ccform">
+                <div class="ccfield-prepend">
+                    <span class="ccform-addon"><i class="fa fa-user fa-2x fa-spin"></i></span>
+                    <input name="first_name" class="ccformfield" type="text" placeholder="Full Name" required>
+                </div>
+                <div class="ccfield-prepend">
+                    <span class="ccform-addon"><i class="fa fa-envelope fa-2x"></i></span>
+                    <input name="email" class="ccformfield" type="text" placeholder="Email" required>
+                </div>
+               <!-- <div class="ccfield-prepend">
+                    <span class="ccform-addon"><i class="fa fa-mobile-phone fa-2x"></i></span>
+                    <input name="telephone" class="ccformfield" type="text" placeholder="Numero">
+                </div> 
+                 <div class="ccfield-prepend">
+                    <span class="ccform-addon"><i class="fa fa-info fa-2x"></i></span>
+                    <input name="subject" class="ccformfield" type="text" placeholder="Asunto" required>
+                </div>--->
+                <div class="ccfield-prepend">
+                    <span class="ccform-addon"><i class="fa fa-comment fa-2x"></i></span>
+                    <textarea name="message" class="ccformfield" rows="5" placeholder="Message" required></textarea>
+                </div>
+                <div class="ccfield-prepend">
+                    <input class="ccbtn" type="submit" value="Send">
+                </div>
+                </form>
+			</div>
+			<script>
+				$(document).ready(function(){
+					var form = $('form.ccform'),
+							sender = form.find('input.ccbtn');
+					sender.click(function(e){
+						e.preventDefault();
+						$(this).prop('disable', true);
+						var f_name = $('input[name="first_name"]'),
+								email = $('input[name="email"]'),
+								message = $('textarea[name="message"]');
+						if (f_name.val() == '') {
+							swal({
+								title : 'Incomplete Field',
+								text : 'Complete the field <strong>Name</strong> to continue',
+								html : true,
+								type : 'error'
+							});
+						} else if (email.val() == '') {
+							swal({
+								title : 'Incomplete Field',
+								text : 'Complete the field <strong>Email</strong> to continue',
+								html : true,
+								type : 'error'
+							});
+						} else if (message.val() == '') {
+							swal({
+								title : 'Incomplete Field',
+								text : 'Complete the field <strong>Message</strong> to continue',
+								html : true,
+								type : 'error'
+							});
+						} else {
+							$.post('send_mail.php',{
+								f_name : f_name.val(),
+								email : email.val(),
+								message : message.val()
+							}, function(response) {
+								if (response.error) {
+									swal({
+										title : response.error.title,
+										text : response.error.text,
+										html : true,
+										type : 'error'
+									});
+									$(this).prop('disable', false);
+								}
+								if (response.success) {
+									swal({
+										title : response.success.title,
+										text : response.success.text,
+										html : true,
+										type : 'success'
+									});
+									f_name.val('');
+									tel.val('');
+									message.val('');
+									$(this).prop('disable', false);
+								}
+							}, 'json');
+						}
+					});
+				});
+			</script>
+
+		</div>
+        <div class="datos">
+                        <article style="padding-top:0px; width: 100%;">
+                        	
+                        	<h3>DM me:</h3>
+                        	<div style="font-size: 1.6em">
+							<a style="color:#fff;text-transform: lowercase; font-weight: 200;" href="https://api.whatsapp.com/send?phone=573185580520&text=Hi%2C%20cholao" target="_blank"><i class="fab fa-whatsapp fa-2x"></i></a><a style="color:#fff;text-transform: lowercase; font-weight: 200;" href="http://m.me/cholangas" target="_blank"><i class="fab fa-facebook-messenger fa-2x"></i></a><br></div>
+							<h3>My info:</h3>
+							<div style="font-size: 1.6em; line-height: 1.6em;">
+							<a style="color:#fff;text-transform: lowercase; font-weight: 200;" href="mailto:hola@cholao.co?subject=hola%20cholao"><i class="fas fa-envelope-open 2x"></i>   hola@cholao.co</a><br>
+							<a style="color:#FFF; font-weight: 200; margin-left: 5px;" href="tel:5723185580520"><i class="fas fa-mobile-alt"></i>  +(57) 318 558 0520</a><br>
+							<div style="margin-top: 15px;">
+							<a style="color:#FFFFFF; float:left;text-transform: lowercase; font-weight: 200; font-size: 1.3em; " href="https://www.facebook.com/cholangas" target="_blank"><i class="fab fa-facebook"></i></a>
+							<a style="color:#FFFFFF; float:left; text-transform: lowercase; font-weight: 200;font-size: 1.3em; margin-left: 7px;" href="https://instagram.com/xcholaox" target="_blank"><i class="fab fa-instagram"></i></a>
+							<a style="color:#FFFFFF; float:left; text-transform: lowercase; font-weight: 200;font-size: 1.3em; margin-left: 7px;" href="https://www.behance.net/cholao" target="_blank"><i class="fab fa-behance"></i></a>
+							</div></div>
+						</article>
+						</div>
+					</div>
+					<span class="bl-icon bl-icon-close"></span>
+				</section>
+				<!-- Panel items for the works -->
+				<div class="bl-panel-items" id="bl-panel-work-items">
+					<div data-panel="panel-1">
+						<div>
+							<img src="images/1.jpg" />
+							<h3>Paseo del Prado Shopping Mall</h3>
+							<p>Manageable Website.</p>
+							<p>Design, development, animation and implementation of a  website for a Shopping Mall. This website is manageable, under a CMS called Wordpress.</p>
+                            <a href="https://ccpaseodelprado.com/" target="_blank">Want to Visit?</a>
+						</div>
+					</div>
+					<div data-panel="panel-2">
+						<div>
+							<img src="images/2.jpg" />
+							<h3>Best Seller Digital Marketing Agency</h3>
+                            <p>Manageable One Page Website.</p>
+							<p>Markup, Development and implementation of the website of the digital marketing agency <b>Best Seller</b> , this website is manageable, under a CMS called Wordpress.</p>
+                            <a href="https://bestsellerdigital.com/" target="_blank">Want to Visit?</a>
+						</div>
+					</div>
+					<div data-panel="panel-3">
+						<div>
+                        <img src="images/3.jpg" />
+							<h3>H7 Exellentiam Group</h3>
+							<p>Manageable Website, Blog</p>
+							<p>Markup, Development and implementation of the website for the brand of products and treatments for hair H7 Exellentiam Group. The site has a different layout by section, as well as a blog with a special layout. This website is manageable, under a CMS called Wordpress.</p>
+                            <a href="http://h7exelentiam.com/" target="_blank">Want to Visit?</a>
+						</div>
+					</div>
+					<div data-panel="panel-4">
+						<div>
+							<img src="images/4.jpg" />
+							<h3>Galileo Virtual Pipeline</h3>
+                            <p>HTML5 Animated Banner</p>
+							<p>The client created a virtual tour of the gas process through a gas pipeline, which required a promotional banner for users to visit. For this project I use a tool called Adobe Animate.</p>
+                            <a href="https://www.galileoar.com/produccion-distribuida-de-gnl-en-pequena-escala/" target="_blank">Want to Visit?</a>
+						</div>
+
+					</div>
+                    <div data-panel="panel-5">
+						<div>
+							<img src="images/5.jpg" />
+							<h3>BEAUTY MANAGER Educative Program</h3>
+                            <p>Animated Video</p>
+							<p>Demonstration video of the H7 BEAUTY MANAGER training program of the H7 Exellentiam Group brand, made with video sequences and images, and some titles and animated transitions.</p>
+                            <a href="https://youtu.be/FKaLM8vDo_0" target="_blank">Want to see?</a>
+						</div>
+
+					</div>
+                   <div data-panel="panel-6">
+						<div>
+							<img src="images/12.jpg" />
+							<h3>Bc Coffee Company</h3>
+                            <p>E-commerce</p>
+							<p>Website and online store for a Coffee Roasting company, academy, and coffee shop. Thi website was developed with Wordpress CMs, Elementor, and Wocommerce as the store management system.</p>
+                            <a href="https://bccoffeecompany.com/" target="_blank">Want to Visit?</a>
+						</div>
+                        </div>
+                      <div data-panel="panel-7">
+						<div>
+							<img src="images/7.jpg" />
+							<h3>Stay On Design</h3>
+							<p>Website</p>
+							<p>Development of a One Page Site for a graphic designer. The client had a specific design, which she wanted to realize in HTML5 and CSS3, from a single page, and with a system of modal windows for the work she had done.</p>
+                            <a href="http://stayondesign.com/" target="_blank">Want to see?</a>
+						</div>
+					</div>
+                  <div data-panel="panel-8">
+						<div>
+							<img src="images/8.jpg" />
+							<h3>Prana Azul</h3>
+							<p>Animated Logo Video</p>
+							<p>Animation I did for a client that has a natural mineral water brand. He wanted an element that was present throughout the video, and in general of all the advertising pieces, and that it represented water and fluidity, so I chose the shape of a drop of water.
+</p>
+                            <a href="https://www.youtube.com/watch?v=kbTdxfmE_S4" target="_blank">Want to see?</a>
+						</div>
+					</div>  
+					<div data-panel="panel-9">
+						<div>
+							<img src="images/9.jpg" />
+							<h3>Reel Brankey Agencia Creativa</h3>
+							<p>Video Edition</p>
+							<p>Animated reel I did when worked at Brandkey advertising agency, the idea was to demonstrate the dynamism and direct impact that the agency has with its campaigns.
+</p>
+                            <a href="https://www.youtube.com/watch?v=T1ML-lI0gBQ" target="_blank">Want to see?</a>
+						</div>
+					</div>  
+					<div data-panel="panel-10">
+						<div>
+							<img src="images/10.jpg" />
+							<h3>Intersalud Ocupacional</h3>
+							<p>Animated Logo Video Proposal.</p>
+							<p>This is a proposal I made when I worked for Brandkey agency, for an occupational health company.
+</p>
+                            <a href="https://www.youtube.com/watch?v=pb079Koi5GE" target="_blank">Want to see?</a>
+						</div>
+					</div>
+					<div data-panel="panel-11">
+						<div>
+							<img src="images/11.jpg" />
+							<h3>Universo Organic Quinoa.</h3>
+							<p>Packaging Design</p>
+							<p>This is an organic product of an indigenous community, so the client wanted the packaging to be as natural as possible, so I chose a design with only one ink, to print on a paper bag.
+</p>
+                            <img src="images/bolsas.jpg" />
+						</div>
+					</div>    
+			<nav>
+						<span class="bl-next-work">&gt; Next Work</span>
+						<span class="bl-icon bl-icon-close"></span>
+					</nav>
+				</div>
+			</div>
+		</div><!-- /container -->
+		
+		<script src="js/boxlayout.js"></script>
+		<script>
+			$(function() {
+				Boxlayout.init();
+			});
+		</script>
+
+		
+	</body>
+</html>
