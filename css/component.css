@@ -982,6 +982,13 @@ div.bl-panel-items > div > div {
 /*-provisional-*/
  .icono{
  	margin: 10px;
+	vertical-align: middle;
+	display: inline-block;
+ }
+  .w-p img{
+ 	max-width: 90px;
+ 	margin: 0px;
+	vertical-align: middle;
  }
  .first{
  	margin-left: 0px;
