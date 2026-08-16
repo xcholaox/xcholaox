@@ -145,6 +145,10 @@ body {
 	width: 30%;
 	margin: 1%;
 }
+.titulo-works{
+    min-height: 0px;
+}
+
 }
 
 .pattern-container {
@@ -943,7 +947,7 @@ a, button {
 	width:100%;
 }
 .titulo-works{
-    min-height: unset;
+    min-height: 0px;
 }
 .conta{
 	float:left;
