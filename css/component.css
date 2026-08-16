@@ -145,9 +145,6 @@ body {
 	width: 30%;
 	margin: 1%;
 }
-.titulo-works{
-    min-height: 0px;
-}
 
 }
 
@@ -669,6 +666,9 @@ section.bl-expand .bl-icon-close {
 		width: 100%;
 	}
 
+.titulo-works{
+    min-height: 0px !important;
+}
 	.img_perfil{
 		width: 100% !important;
 	}
