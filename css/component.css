@@ -139,6 +139,12 @@ body {
 	.demo-2 .main-title {
 		font-size: 4em;
 	}
+
+	.bl-content > ul li {
+	display: inline-block;
+	width: 30%;
+	margin: 1%;
+}
 }
 
 .pattern-container {
@@ -936,7 +942,9 @@ a, button {
 	float:left;
 	width:100%;
 }
-
+.titulo-works{
+    min-height: unset;
+}
 .conta{
 	float:left;
 	width:100%;
@@ -1028,4 +1036,8 @@ div.bl-panel-items > div > div {
 	font-weight: normal;
 	font-family: 'rosmiregular', sans-serif;
 	/*text-transform: uppercase;*/
+}
+
+.titulo-works{
+    min-height: 300px;
 }
