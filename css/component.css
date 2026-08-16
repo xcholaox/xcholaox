@@ -666,9 +666,6 @@ section.bl-expand .bl-icon-close {
 		width: 100%;
 	}
 
-.titulo-works{
-    min-height: 0px !important;
-}
 	.img_perfil{
 		width: 100% !important;
 	}
@@ -947,7 +944,7 @@ a, button {
 	width:100%;
 }
 .titulo-works{
-    min-height: 0px;
+    min-height: 0px !important;
 }
 .conta{
 	float:left;
